@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "simpledeathscreenshot",
+	"version": "${version}",
+	"name": "Simple Death Screenshot",
+	"description": "Automatically screenshots the death screen, and nothing more.",
+	"authors": [
+		"cintlex"
+	],
+	"contact": {
+		"issues": "https://github.com/cintlep/Simple-Death-Screenshot/issues",
+		"sources": "https://github.com/cintlep/Simple-Death-Screenshot"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/simpledeathscreenshot/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"cintlex.sds.SimpleDeathScreenshot"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.20.1",
+		"java": ">=17",
+		"fabric-api": ">=0.92.6+1.20.1"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
